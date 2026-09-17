@@ -1541,6 +1541,27 @@ dependencies = [
 ]
 
 [[package]]
+name = "geetester"
+version = "0.1.0"
+dependencies = [
+ "geojson",
+ "inquire",
+ "mime_guess",
+ "petname",
+ "rand",
+ "reqwest",
+ "rustyline",
+ "serde",
+ "serde_json",
+ "serde_with",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-opener",
+ "tauri-plugin-store",
+ "tokio",
+]
+
+[[package]]
 name = "generic-array"
 version = "0.12.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1733,27 +1754,6 @@ dependencies = [
  "glib-sys",
  "libc",
  "system-deps",
-]
-
-[[package]]
-name = "gpostman"
-version = "0.1.0"
-dependencies = [
- "geojson",
- "inquire",
- "mime_guess",
- "petname",
- "rand",
- "reqwest",
- "rustyline",
- "serde",
- "serde_json",
- "serde_with",
- "tauri",
- "tauri-build",
- "tauri-plugin-opener",
- "tauri-plugin-store",
- "tokio",
 ]
 
 [[package]]

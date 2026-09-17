@@ -16,7 +16,7 @@ use rustyline::{
     hint::{Hinter, HistoryHinter},
 };
 
-use gpostman_lib::{commons::{AppState, LayerSourceCollection}, link_engine::LinkEngine};
+use geetester_lib::{commons::{AppState, LayerSourceCollection}, link_engine::LinkEngine};
 
 #[derive(Helper, Validator, Highlighter)]
 struct ShellHelper {
@@ -60,7 +60,7 @@ static VIEWPORT_OPEN: AtomicBool = AtomicBool::new(false);
 
 fn open_viewport(lsc: Arc<Mutex<HashMap<String, LayerSourceCollection>>>, link_e: Arc<tokio::sync::Mutex<LinkEngine>>) {
     if !VIEWPORT_OPEN.swap(true, Ordering::Relaxed) {
-        gpostman_lib::run(AppState {
+        geetester_lib::run(AppState {
             lsc: lsc,
             d_lsc: None,
             l_engine: link_e,
