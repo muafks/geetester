@@ -25,7 +25,6 @@
 
 <div class="outer-container" class:out={opened}>
   <div class="drawer">
-    <!-- shit here -->
     <SearchWidget bind:wM={wM} bind:map={map}></SearchWidget>
     <LayerExplorer bind:map={map} bind:layers={layers}></LayerExplorer>
     <PropertiesExplorer opened={propertiesExplorerOpen} obj={propertiesExplorerData} wM={wM}></PropertiesExplorer>

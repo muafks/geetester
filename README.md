@@ -1,7 +1,10 @@
-# Tauri + SvelteKit + TypeScript
+# Brief Summary
+A streamlined, easy tool for testing if your GeoJSON, TileJSON, or template URL endpoints work. This is best for when you are working with tile servers and need to quickly verify that your data renders correctly.
 
-This template should help get you started developing with Tauri, SvelteKit and TypeScript in Vite.
+# Minor Warning
+Currently, the map instance may flicker or crash when loading endpoints that send large amounts of data (>~30MB). This performance bottleneck will be addressed in a future update.
 
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+# Tools Used
+- [MapLibre GL](https://maplibre.org/)
+- [Svelte](https://svelte.dev/)
+- [Tauri](https://tauri.app/)

@@ -284,7 +284,6 @@
           break;
       }
     });
-    //update it cuh
     addedLayers = [...addedLayers];
   }
   function setColorOfLayer(
