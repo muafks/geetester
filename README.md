@@ -1,3 +1,4 @@
+(I apologise the readme.md was formatted by ai, also not maintaining this currently as I am busy)
 # Brief Summary
 A streamlined, easy tool for testing if your GeoJSON, TileJSON, or template URL endpoints work. This is best for when you are working with tile servers and need to quickly verify that your data renders correctly.
 
